@@ -1,0 +1,90 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{SERVER_PORT} 80
+	RewriteRule ^(.*)$ https://www.mgcaregroup.com/$1 [R,L]
+
+   RewriteCond %{HTTPS} !=on
+   RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
+
+
+   #Rewritecond "%{HTTP_HOST} !^http"  [NC]
+
+   #RewriteRule "^/?(.*)$ https://www.mgcaregroup.com/$1" [L,R=301,NE]
+
+
+
+   RewriteRule ^hot-mix-plant-manufacturer-in-([A-Za-z]+)/?$ dynamic_hot_mix_plant.php
+   RewriteRule ^hot-mix-plant-manufacturer-in-([A-Za-z]+)-([A-Za-z]+)/?$ dynamic_hot_mix_plant.php
+   RewriteRule ^hot-mix-plant-manufacturer-in-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)/?$ dynamic_hot_mix_plant.php
+   RewriteRule ^hot-mix-plant-manufacturer-in-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)/?$ dynamic_hot_mix_plant.php
+
+
+
+
+   RewriteRule ^bitumen-sprayer-manufacturer-in-([A-Za-z]+)/?$ bituman_sprayer_dynamic.php
+   RewriteRule ^bitumen-sprayer-manufacturer-in-([A-Za-z]+)-([A-Za-z]+)/?$ bituman_sprayer_dynamic.php
+   RewriteRule ^bitumen-sprayer-manufacturer-in-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)/?$ bituman_sprayer_dynamic.php
+   RewriteRule ^bitumen-sprayer-manufacturer-in-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)/?$ bituman_sprayer_dynamic.php
+
+
+
+
+   RewriteRule ^broomer-manufacturer-in-([A-Za-z]+)/?$ broomer_manufactures_dynamic.php
+   RewriteRule ^broomer-manufacturer-in-([A-Za-z]+)-([A-Za-z]+)/?$ broomer_manufactures_dynamic.php
+   RewriteRule ^broomer-manufacturer-in-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)/?$ broomer_manufactures_dynamic.php
+   RewriteRule ^broomer-manufacturer-in-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)/?$ broomer_manufactures_dynamic.php
+
+   RewriteRule ^paver-machine-manufacturer-in-([A-Za-z]+)/?$ paver_machine_manufacturers_dynamic.php
+   RewriteRule ^paver-machine-manufacturer-in-([A-Za-z]+)-([A-Za-z]+)/?$ paver_machine_manufacturers_dynamic.php
+   RewriteRule ^paver-machine-manufacturer-in-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)/?$ paver_machine_manufacturers_dynamic.php
+   RewriteRule ^paver-machine-manufacturer-in-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)/?$ paver_machine_manufacturers_dynamic.php
+	
+  RewriteRule ^bitumen-tank-manufacturer-in-([A-Za-z]+)/?$ bitumen_tank_manufacturers.php
+   RewriteRule ^bitumen-tank-manufacturer-in-([A-Za-z]+)-([A-Za-z]+)/?$ bitumen_tank_manufacturers.php
+   RewriteRule ^bitumen-tank-manufacturer-in-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)/?$ bitumen_tank_manufacturers.php
+   RewriteRule ^bitumen-tank-manufacturer-in-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)/?$ bitumen_tank_manufacturers.php
+
+     RewriteRule ^control-unit-manufacturer-in-([A-Za-z]+)/?$ pollution_control_dynamic.php
+   RewriteRule ^control-unit-manufacturer-in-([A-Za-z]+)-([A-Za-z]+)/?$ pollution_control_dynamic.php
+   RewriteRule ^control-unit-manufacturer-in-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)/?$ pollution_control_dynamic.php
+   RewriteRule ^control-unit-manufacturer-in-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)/?$ pollution_control_dynamic.php
+  
+
+   
+
+
+   
+   
+#RewriteRule ^modular-kitchen-in-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)/?$ dynamic.php
+#RewriteRule ^modular-kitchen-in-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)-([A-Za-z]+)/?$ dynamic.php
+
+
+  # RewriteRule ^([A-Za-z0-9]+).html /content.php?page=$1 [L, QSA]
+
+
+
+
+ 
+
+ # RewriteCond %{HTTP_HOST} ^www\.mgcs\.in [NC]
+
+#   RewriteCond %{SERVER_PORT} 80 
+
+#   RewriteRule ^(.*)$ https://www.mgcs.in/$1 [R=301,L]
+
+
+
+
+
+#   RewriteCond "%{HTTP_HOST}" "!^www\.mgcs\.in" [NC]
+
+#   RewriteRule "^/?(.*)"      "https://www.mgcs.in/$1" [L,R=301,NE]
+
+
+
+  ErrorDocument 404 /404.html
+
+
+</IfModule>

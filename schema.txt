@@ -1,0 +1,89 @@
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Maa Gayatri Construction & Road Equipment",
+  "url": "https://mgcaregroup.com/",
+  "logo": "https://mgcaregroup.com/img/hot-mix-plant-manufacturer-in-chhattisgarh.webp",
+  "sameAs": [
+    "https://www.facebook.com/Maa-Gayatri-101812865325904/?ref=page_internal",
+    "https://www.youtube.com/channel/UCC5xJ2yn2rjwSY1wHrT1qLA"
+  ]
+}
+</script>
+         
+
+
+schema code for products
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Product", 
+  "name": "Maa Gayatri Construction & Road Equipment",
+  "image": "https://mgcaregroup.com/img/products/hot-mix-plant%20manufacturer-in%20chhattisgarh.webp",
+  "description": "Maa Gayatri Construction & Road Equipments is one of the reputed brand names engaged in manufacturing of Hot Mix Plant in Chhattisgarh.",
+  "brand": "Maa Gayatri Construction & Road Equipment",
+  "sku": "Maa Gayatri Construction & Road Equipment",
+  "gtin8": "12345678",
+  "offers": {
+    "@type": "Offer",
+    "url": "https://mgcaregroup.com/hot-mix-plant-manufacturer-in-chhattisgarh.html",
+    "priceCurrency": "INR",
+    "price": "4000000",
+    "priceValidUntil": "2021-04-29",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.93",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "3",
+    "reviewCount": "3"
+  },
+  "review": [{
+    "@type": "Review",
+    "name": "Vinay Rajput",
+    "reviewBody": "Great experience dealing with Maa Gayatri Construction & Road Equipment road equipment !!!",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "4.8",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2021-12-02",
+    "author": {"@type": "Person", "name": "Vinay Rajput"},
+    "publisher": {"@type": "Organization", "name": "Maa Gayatri Construction and Road Equipment"}
+  },{
+    "@type": "Review",
+    "name": "Amit Shrma",
+    "reviewBody": "Very good expertise in Hot Mix Plant Manufacturer. Excellent customer service",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2021-02-25",
+    "author": {"@type": "Person", "name": "Amit Shrma"},
+    "publisher": {"@type": "Organization", "name": "Maa Gayatri Construction and Road Equipment"}
+  },{
+    "@type": "Review",
+    "name": "Ritika Goyal",
+    "reviewBody": "Very good expertise in Hot Mix Plant Manufacturer.  Excellent customer service.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2021-01-29",
+    "author": {"@type": "Person", "name": "Ritika Goyal"},
+    "publisher": {"@type": "Organization", "name": "Maa Gayatri Construction and Road Equipment"}
+  }]
+}
+</script>
